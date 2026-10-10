@@ -9,30 +9,30 @@
 class Mira < Formula
   desc "Open-source coding agent you run yourself, with the model you choose"
   homepage "https://github.com/runmira/mira"
-  version "0.6.1"
+  version "0.6.2"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/runmira/mira/releases/download/v#{version}/mira-darwin-arm64.tar.gz"
-      sha256 "a0c9d958886dd608c6be244702513da50f238fbe64887b281eb8e7ec016f269f"
+      sha256 "82a9d980c6ca6bb0fc0cb2c080da23c02a666a5b79455ef3e46e7f28ae8daf2a"
     end
 
     on_intel do
       url "https://github.com/runmira/mira/releases/download/v#{version}/mira-darwin-x86_64.tar.gz"
-      sha256 "69699dc8d403f8643307a886276632bfb814dc3adaa8d31877986c33137c44f8"
+      sha256 "7ee68e2ecbbe2274b4519f24f6a49ed4ce02725e6ee1fcf8acc5f52fd80dfd77"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/runmira/mira/releases/download/v#{version}/mira-linux-arm64.tar.gz"
-      sha256 "6a48ba34ea0926242e376cede06af145df4f65410192f7d434b2bbf663cab494"
+      sha256 "99e141fbb3c473733acb8270ad3c1d3664151f1f4f340546623f5ec59c8893d1"
     end
 
     on_intel do
       url "https://github.com/runmira/mira/releases/download/v#{version}/mira-linux-x86_64.tar.gz"
-      sha256 "9b4b3c431b45c922292a55c4bca98bb48daaacb8640907ee594fcc501d728261"
+      sha256 "489c7bd0f44f684be85097da0cc9f9dcf9972c6a4fc070f563574a0cd08d2fb7"
     end
   end
 
